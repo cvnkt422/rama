@@ -36,7 +36,7 @@ public class RamaApplication {
 	@GetMapping
 	public ResponseEntity<String> showHome(){
 
-		logger.info("Coming inside Controller VNKT");
+		logger.infoS("Coming inside Controller VNKT");
 
 		return new ResponseEntity<>("Welcome Sri Rama Chandra Prabhu", HttpStatus.OK);
 
