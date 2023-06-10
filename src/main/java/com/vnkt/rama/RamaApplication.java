@@ -38,7 +38,7 @@ public class RamaApplication {
 
 		logger.info("Coming inside Controller");
 
-		return new ResponseEntity<>("Welcome Sri Rama Chandra", HttpStatus.OK);
+		return new ResponseEntity<>("Welcome Sri Rama Chandra Prabhu", HttpStatus.OK);
 
 	}
 
